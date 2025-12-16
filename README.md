@@ -1,4 +1,4 @@
-# 🚗 Aplikasi Rental Mobil System (C++)
+# 🚗 Aplikasi Rental Mobil System menggunakan BST
 
 Aplikasi konsol sederhana yang dirancang untuk mengelola data katalog mobil rental. Proyek ini mengimplementasikan struktur data **Multi-Level Binary Search Tree (BST)** untuk menyusun data secara hierarkis dan terurut (Kategori → Brand/Tipe → Model).
 
@@ -23,19 +23,9 @@ Struktur data utama yang diimplementasikan adalah BST yang dimodifikasi, menggun
 | **`subTree`** | [cite_start]Pointer ke *Child Node*[cite: 335]. | [cite_start]Menghubungkan ke level di bawahnya (misalnya, dari Kategori ke Brand), yang juga diorganisir sebagai BST[cite: 336]. |
 | **`Account`** | [cite_start]Struktur untuk menyimpan `username`, `password`, dan `role` (`admin`/`customer`)[cite: 337]. | Manajemen Login. |
 
-## ⚙️ Cara Build & Run
 
 ### Struktur File
-
-Pastikan file-file berikut berada dalam satu direktori:
 
 * `main.cpp`
 * `MobilTree.h`
 * `MobilTree.cpp`
-
-### Kompilasi (g++)
-
-Untuk mengkompilasi program, buka terminal/CMD dan jalankan perintah:
-
-```bash
-g++ MobilTree.cpp main.cpp -o RentalMobil

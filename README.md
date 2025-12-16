@@ -6,11 +6,11 @@ Aplikasi konsol sederhana yang dirancang untuk mengelola data katalog mobil rent
 
 Aplikasi ini mendukung manajemen data dan otentikasi pengguna:
 
-* **Otentikasi & Akses**: Mendukung dua peran pengguna: **Admin** untuk manajemen data dan **Pelanggan** untuk melihat katalog dan simulasi sewa[cite: 316].
-* **CRUD Hierarkis**: Tambah data di berbagai level (Kategori, Brand, atau Model)[cite: 350].
-* **Struktur Data Multi-Level BST**: Data diorganisir dalam struktur BST yang bertingkat, memungkinkan pengurutan alfabetis otomatis di setiap level[cite: 326]. 
-* **Pencarian Cepat**: Menggunakan algoritma rekursif (`searchGlobal`) untuk mencari mobil di seluruh Tree secara efisien[cite: 345].
-* **Traversal In-Order**: Menampilkan seluruh katalog mobil dalam format *Tree View* yang terstruktur dan terurut alfabetis[cite: 347, 348].
+* **Otentikasi & Akses**: Mendukung dua peran pengguna: **Admin** untuk manajemen data dan **Pelanggan** untuk melihat katalog dan simulasi sewa.
+* **CRUD Hierarkis**: Tambah data di berbagai level (Kategori, Brand, atau Model).
+* **Struktur Data Multi-Level BST**: Data diorganisir dalam struktur BST yang bertingkat, memungkinkan pengurutan alfabetis otomatis di setiap level. 
+* **Pencarian Cepat**: Menggunakan algoritma rekursif (`searchGlobal`) untuk mencari mobil di seluruh Tree secara efisien.
+* **Traversal In-Order**: Menampilkan seluruh katalog mobil dalam format *Tree View* yang terstruktur dan terurut alfabetis.
 
 ## 🧱 Struktur Data Proyek
 

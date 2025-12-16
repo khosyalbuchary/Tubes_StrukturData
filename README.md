@@ -1,4 +1,4 @@
-# 🚗 Aplikasi Rental Mobil System menggunakan BST
+# 🚗 Aplikasi Rental Mobil Menggunakan BST
 
 Aplikasi konsol sederhana yang dirancang untuk mengelola data katalog mobil rental. Proyek ini mengimplementasikan struktur data **Multi-Level Binary Search Tree (BST)** untuk menyusun data secara hierarkis dan terurut (Kategori → Brand/Tipe → Model).
 
@@ -18,10 +18,10 @@ Struktur data utama yang diimplementasikan adalah BST yang dimodifikasi, menggun
 
 | Komponen | Deskripsi | Tujuan |
 | :--- | :--- | :--- |
-| **`Node`** | [cite_start]Unit data dasar (Kategori, Brand, atau Model)[cite: 332]. | Menyimpan entitas data mobil. |
-| **`left`, `right`** | [cite_start]Pointer ke *Sibling Node*[cite: 333]. | [cite_start]Mengorganisir data pada level yang sama (misalnya, Sport dan SUV) dalam bentuk **BST** untuk pengurutan otomatis[cite: 334]. |
-| **`subTree`** | [cite_start]Pointer ke *Child Node*[cite: 335]. | [cite_start]Menghubungkan ke level di bawahnya (misalnya, dari Kategori ke Brand), yang juga diorganisir sebagai BST[cite: 336]. |
-| **`Account`** | [cite_start]Struktur untuk menyimpan `username`, `password`, dan `role` (`admin`/`customer`)[cite: 337]. | Manajemen Login. |
+| **`Node`** | Unit data dasar (Kategori, Brand, atau Model). | Menyimpan entitas data mobil. |
+| **`left`, `right`** | Pointer ke *Sibling Node*. | Mengorganisir data pada level yang sama (misalnya, Sport dan SUV) dalam bentuk **BST** untuk pengurutan otomatis. |
+| **`subTree`** | Pointer ke *Child Node*. | Menghubungkan ke level di bawahnya (misalnya, dari Kategori ke Brand), yang juga diorganisir sebagai BST. |
+| **`Account`** | Struktur untuk menyimpan `username`, `password`, dan `role` (`admin`/`customer`). | Manajemen Login. |
 
 
 ### Struktur File
